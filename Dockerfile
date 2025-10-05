@@ -4,7 +4,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy python file into container
-COPY app.py .
+COPY School.py .
 
 # Run python file when container starts
-CMD ["python", "app.py"]
+CMD ["python", "School.py"]
